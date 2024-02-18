@@ -3,5 +3,57 @@
 {% block title %}Contact{% endblock %}
 
 {% block content %}
-    <h1>The contact page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info p span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><span>Name:</span> Mac Abdallah</p>
+            <p><span>Phone Number:</span> +254745777890</p>
+            <p><span>Name:</span> Catherine Munyao</p>
+            <p><span>Phone Number:</span> +254734567890</p>
+            <p><span>Name:</span> Esther Mwende</p>
+            <p><span>Phone Number:</span> +254798567890</p>
+            <p><span>Name:</span> Brianna Muthoni</p>
+            <p><span>Phone Number:</span> +254745679890</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
 {% endblock %}
